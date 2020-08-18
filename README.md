@@ -8,3 +8,4 @@ List :
 * [Dive Into Design Patterns by Alexander Shvets (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Dive%20into%20Design%20Pattern)
 * Beginning React with Hooks by Greg Lim (2020).
 * The Clean Code Collection by Robert Cecil Martin (2020).
+* Pattern-oriented software architecture by F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad and M. Stal (2020...).
