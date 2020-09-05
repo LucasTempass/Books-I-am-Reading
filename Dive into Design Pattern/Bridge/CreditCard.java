@@ -2,9 +2,9 @@ package Bridge;
 
 public abstract class CreditCard {
     
-    protected final CreditCardBrand brand;
+    final CreditCardBrand brand;
     
-    public CreditCard(CreditCardBrand iBrand) {
+    CreditCard(CreditCardBrand iBrand) {
         this.brand = iBrand;
     }
     
