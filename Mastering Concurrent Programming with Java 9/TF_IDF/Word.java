@@ -18,6 +18,10 @@ public class Word extends AbstractWord {
         
     }
     
+    public void incrementTF() {
+        TF++;
+    }
+    
     public double getTFIDF() {
         return TF * Math.log((double) documentsPopulation / DF);
     }

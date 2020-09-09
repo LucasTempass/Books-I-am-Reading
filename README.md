@@ -9,3 +9,4 @@ A collection for the books I've read or I'm reading their related code implement
 * The Clean Code Collection by Robert Cecil Martin (2020).
 * Mastering Concurrent Programming with Java 9 (2020).
 * [Pattern-oriented software architecture by F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad and M. Stal (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Pattern-oriented%20Software%20Architecture)
+* Java: High Performance with Java 9 by Mayur Ramgir and Nick Samoylov (2020).
