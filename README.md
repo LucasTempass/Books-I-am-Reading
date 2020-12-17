@@ -10,9 +10,9 @@ A collection for the books I've read, or I'm reading, and some of their related 
 * [Dive Into Design Patterns by Alexander Shvets (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Dive%20into%20Design%20Pattern)
 * Beginning React with Hooks by Greg Lim (2020).
 * The Clean Code Collection by Robert Cecil Martin (2020).
-* Mastering Concurrent Programming with Java 9 (2020).
+* Java: High Performance with Java 9 by Mayur Ramgir and Nick Samoylov (2020).
 * [Pattern-oriented software architecture by F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad and M. Stal (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Pattern-oriented%20Software%20Architecture)
-* [Java: High Performance with Java 9 by Mayur Ramgir and Nick Samoylov (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Mastering%20Concurrent%20Programming%20With%20Java%209)
+* [Mastering Concurrent Programming with Java 9 (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Mastering%20Concurrent%20Programming%20With%20Java%209)
 * Modern Java Recipes - Simple Solution to Difficult Problems in Java 8 and 9 by Ken Kounsen (2020).
 * Java Coding Problems by Anghel Leonard (2020).
 * Java Projects by Peter Verhas (2020).
