@@ -41,14 +41,12 @@ public class RequestHandlerThread extends Thread {
     }
     
     private Command createCommand(String[] commandData, Socket clientSocket) {
-        switch (commandData[0]) {
-            case "q":
-                return new QueryCommand(clientSocket, commandData);
-            case "s":
-                return new StopCommand(clientSocket, commandData);
-        }
-        return new ErrorCommand(clientSocket, commandData);
-        
+        return switch (commandData[0]) {
+            case "q" -> new QueryCommand(clientSocket, commandData);
+            case "s" -> new StopCommand(clientSocket, commandData);
+            default -> new ErrorCommand(clientSocket, commandData);
+        };
+    
     }
     
     @Override

@@ -6,13 +6,12 @@ public class LoginCredentials implements Exportable {
     private String password;
     private int userId;
     
-    public LoginCredentials(String iEmail, String iPassword, int iUserId) {
-        email = iEmail;
-        password = iPassword;
-        userId = iUserId;
+    public LoginCredentials(String email, String password, int userId) {
+        this.email = email;
+        this.password = password;
+        this.userId = userId;
         
     }
-    
     
     public String getEmail() {
         return email;
@@ -27,8 +26,8 @@ public class LoginCredentials implements Exportable {
     }
     
     @Override
-    public void accept(Exporter iExporter) {
-        iExporter.export(this);
+    public void accept(Exporter exporter) {
+        exporter.export(this);
     }
     
 }

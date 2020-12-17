@@ -1,25 +1,24 @@
 package Iterator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 //||| Switches between mutable and immutable |||
-public class SwitchArray <T> implements Iterable {
+public class SwitchArray <T> implements Iterable<T> {
     
     private boolean isClosed;
     private ArrayList<T> content;
-    
-    public boolean switchState() {
-        isClosed = !isClosed;
-        return isClosed;
-        
-    }
     
     public SwitchArray() {
         content = new ArrayList<>();
     }
     
-    public SwitchArray(ArrayList<T> iContent) {
-        content = iContent;
+    public SwitchArray(ArrayList<T> content) {
+        this.content = content;
+    }
+    
+    public boolean switchState() {
+        return (isClosed = !isClosed);
     }
     
     void close() {
@@ -30,15 +29,16 @@ public class SwitchArray <T> implements Iterable {
         isClosed = false;
     }
     
-    boolean add(T iItem) {
-        if (!isClosed()) content.add(iItem);
-        return !isClosed();
+    boolean add(T item) {
+        if (isOpen()) content.add(item);
+        return isOpen();
         
     }
     
-    boolean remove(T iItem) {
-        if (!isClosed()) content.remove(iItem);
-        return !isClosed();
+    boolean remove(T item) {
+        if (isOpen())
+            content.remove(item);
+        return isOpen();
         
     }
     
@@ -47,16 +47,19 @@ public class SwitchArray <T> implements Iterable {
     }
     
     public ArrayList<T> asArrayList() {
-        return (ArrayList<T>) content.clone();
+        var clone = new ArrayList<T>();
+        Collections.copy(clone, content);
+        return clone;
+        
     }
     
-    public boolean isClosed() {
-        return isClosed;
+    public boolean isOpen() {
+        return !isClosed;
     }
     
     @Override
-    public Iterator iterator() {
-        return new RangeIterator<T>(content);
+    public Iterator<T> iterator() {
+        return new RangeIterator<>(content);
     }
     
 }

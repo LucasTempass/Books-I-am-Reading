@@ -2,8 +2,8 @@ package Visitor;
 
 public interface Exporter {
     
-    void export(Token iToken);
+    void export(Token token);
     
-    void export(LoginCredentials iToken);
+    void export(LoginCredentials credentials);
     
 }

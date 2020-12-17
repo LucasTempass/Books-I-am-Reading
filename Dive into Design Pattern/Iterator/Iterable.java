@@ -1,7 +1,7 @@
 package Iterator;
 
-public interface Iterable {
-
-    Iterator iterator();
+public interface Iterable <T> {
+    
+    Iterator<T> iterator();
     
 }

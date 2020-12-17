@@ -7,11 +7,11 @@ public class Display {
     private ArrayList<Particle> particles;
     
     public Display() {
-        this.particles = new ArrayList();
+        this.particles = new ArrayList<>();
     }
     
-    public Display(ArrayList<Particle> iParticles) {
-        this.particles = iParticles;
+    public Display(ArrayList<Particle> particles) {
+        this.particles = particles;
     }
     
     public void addParticle(Particle iParticle) {

@@ -7,10 +7,10 @@ public class Document {
     private String title;
     private Map<String, Integer> content;
     
-    public Document(String iTitle, Map<String, Integer> iContent) {
+    public Document(String iTitle, Map<String, Integer> content) {
         title = iTitle;
-        content = iContent;
-        
+        this.content = content;
+    
     }
     
     public String getTitle() {

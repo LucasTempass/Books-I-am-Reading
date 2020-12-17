@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.Normalizer;
-import java.util.regex.Pattern;
 
 public class DocumentParser {
     

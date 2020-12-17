@@ -6,8 +6,8 @@ interface CommentDecorations {
     
     void printEnd();
     
-    void printContent(String var1);
+    void printContent(String content);
     
-    void printContent(String[] var1);
+    void printContent(String[] contents);
     
 }

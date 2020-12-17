@@ -10,33 +10,28 @@ public class InputHistory {
         history = new LinkedList<>();
     }
     
-    private InputHistory(LinkedList<TextInput.Memento> iHistory) {
-        history = iHistory;
+    private InputHistory(LinkedList<TextInput.Memento> history) {
+        this.history = history;
     }
     
-    public void undo(TextInput iTextInput) {
+    public void undo(TextInput textInput) {
         if (history.size() != 0)
-            iTextInput.restoreMemento(history.pollLast());
+            textInput.restoreMemento(history.pollLast());
         else System.out.println("History is empty");
         
     }
     
-    public void undoAll(TextInput iTextInput) {
+    public void undoAll(TextInput textInput) {
         if (history.size() != 0) {
-            iTextInput.restoreMemento(history.pollFirst());
+            textInput.restoreMemento(history.pollFirst());
             history.clear();
         }
         else System.out.println("History is empty");
         
     }
     
-    public void addMemento(TextInput.Memento iMemento) {
-        history.add(iMemento);
-    }
-    
-    //||| Useful for a redo command |||
-    public InputHistory clone() {
-        return new InputHistory(history);
+    public void addMemento(TextInput.Memento memento) {
+        history.add(memento);
     }
     
 }

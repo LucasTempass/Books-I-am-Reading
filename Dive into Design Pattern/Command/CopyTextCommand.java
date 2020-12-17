@@ -6,8 +6,8 @@ public class CopyTextCommand implements TextCommand {
     
     public CopyTextCommand() { }
     
-    public void setContent(String iText) {
-        text = iText;
+    public void setContent(String content) {
+        text = content;
     }
     
     public String getContent() {

@@ -5,9 +5,9 @@ public class Button {
     private TextCommand command;
     private String content;
     
-    public Button(TextCommand iCommand, String iContent) {
-        command = iCommand;
-        content = iContent;
+    public Button(TextCommand command, String content) {
+        this.command = command;
+        this.content = content;
         
     }
     
@@ -15,12 +15,8 @@ public class Button {
         return command;
     }
     
-    public void setCommand(TextCommand iCommand) {
-        command = iCommand;
-    }
-    
-    public String getId() {
-        return content;
+    public void setCommand(TextCommand command) {
+        this.command = command;
     }
     
     public void click(ClipBoard handler) {

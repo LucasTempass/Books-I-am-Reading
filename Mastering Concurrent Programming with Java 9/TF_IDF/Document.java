@@ -8,9 +8,9 @@ public class Document {
     private String title;
     private Map<String, Word> content;
     
-    public Document(String iTitle, Map<String, Word> iContent) {
-        title = iTitle;
-        content = iContent;
+    public Document(String title, Map<String, Word> content) {
+        this.title = title;
+        this.content = content;
         
     }
     

@@ -2,6 +2,6 @@ package Factory;
 
 public interface Drivable {
     
-    void drive(int iDrivable);
+    void drive(int drivable);
     
 }

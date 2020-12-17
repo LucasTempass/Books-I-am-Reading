@@ -3,16 +3,17 @@ package Iterator;
 public class Demo {
     
     public static void main(String[] args) {
-        SwitchArray<Integer> iSwitchArray = new SwitchArray<Integer>();
-        iSwitchArray.add(2);
-        iSwitchArray.add(3);
-        iSwitchArray.add(4);
+        SwitchArray<Integer> switchArray = new SwitchArray<Integer>();
+        switchArray.add(2);
+        switchArray.add(3);
+        switchArray.add(4);
         //||| Immutable |||
-        iSwitchArray.switchState();
-        Iterator iIterator = iSwitchArray.iterator();
-        while (iIterator.hasNext()) System.out.println(iIterator.next());
-        System.out.println(iSwitchArray.asArrayList().toString());
-        
+        switchArray.switchState();
+        Iterator<Integer> iIterator = switchArray.iterator();
+        while (iIterator.hasNext())
+            System.out.println(iIterator.next());
+        System.out.println(switchArray.asArrayList().toString());
+    
     }
     
 }

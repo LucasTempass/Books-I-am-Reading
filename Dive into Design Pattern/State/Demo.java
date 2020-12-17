@@ -3,12 +3,12 @@ package State;
 public class Demo {
     
     public static void main(String[] args) {
-        Game iGame = new Game("The Lorem Ipsum");
-        iGame.setStage(new DevelopmentStage());
-        iGame.runTests();
+        Game game = new Game("The Lorem Ipsum");
+        game.setStage(new DevelopmentStage());
+        game.runTests();
         System.out.println();
-        iGame.setStage(new StableVersion());
-        iGame.runTests();
+        game.setStage(new StableVersion());
+        game.runTests();
     
     }
     

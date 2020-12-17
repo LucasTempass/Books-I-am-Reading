@@ -2,14 +2,14 @@ package Adapter;
 
 public class MicroAdapter implements MicroSIM {
     
-    private NanoSIMCard eNanoSIMCard;
+    private NanoSIMCard nanoSIMCard;
     
     public MicroAdapter(NanoSIMCard iNanoSIMCard) {
-        this.eNanoSIMCard = iNanoSIMCard;
+        this.nanoSIMCard = iNanoSIMCard;
     }
     
     public void getData() {
-        this.eNanoSIMCard.getReception();
+        this.nanoSIMCard.getReception();
     }
     
 }

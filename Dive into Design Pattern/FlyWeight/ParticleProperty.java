@@ -1,13 +1,15 @@
 package FlyWeight;
 
 public class ParticleProperty {
+    
     private final String color;
     
-    public ParticleProperty(String iColor) {
-        this.color = iColor;
+    public ParticleProperty(String color) {
+        this.color = color;
     }
     
     public String toString() {
         return this.color;
     }
+    
 }

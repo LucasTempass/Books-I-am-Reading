@@ -6,7 +6,6 @@ public class CommandTask <V> extends FutureTask<V> implements Comparable<Command
     
     private Command command;
     
-    
     public CommandTask(Command command) {
         super(command, null);
         this.command = command;
@@ -17,8 +16,8 @@ public class CommandTask <V> extends FutureTask<V> implements Comparable<Command
         return command;
     }
     
-    public void setCommand(Command iCommand) {
-        command = iCommand;
+    public void setCommand(Command command) {
+        this.command = command;
     }
     
     @Override

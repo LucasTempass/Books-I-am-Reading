@@ -4,9 +4,9 @@ class Minion {
     
     private double[] column, row;
     
-    Minion(double[] iColumn, double[] iRow) {
-        column = iColumn;
-        row = iRow;
+    Minion(double[] column, double[] row) {
+        this.column = column;
+        this.row = row;
         
     }
     

@@ -2,22 +2,22 @@ package Iterator;
 
 import java.util.ArrayList;
 
-public class RangeIterator <T> implements Iterator {
+public class RangeIterator <T> implements Iterator<T> {
     
     private ArrayList<T> content;
     private int end;
     private int current;
     
-    public RangeIterator(ArrayList<T> iContent) {
-        content = iContent;
-        end = iContent.size() - 1;
+    public RangeIterator(ArrayList<T> content) {
+        this.content = content;
+        end = content.size() - 1;
         current = -1;
         
     }
     
-    public RangeIterator(ArrayList<T> iContent, int iStart, int iEnd) {
-        content = iContent;
-        end = iEnd;
+    public RangeIterator(ArrayList<T> content, int iStart, int end) {
+        this.content = content;
+        this.end = end;
         current = iStart - 1;
         
     }

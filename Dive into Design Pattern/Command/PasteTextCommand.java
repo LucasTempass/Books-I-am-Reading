@@ -6,8 +6,8 @@ public class PasteTextCommand implements TextCommand {
     
     public PasteTextCommand() { }
     
-    public void setContent(String iText) {
-        text = iText;
+    public void setContent(String content) {
+        text = content;
     }
     
     public String getContent() {

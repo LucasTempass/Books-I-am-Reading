@@ -4,8 +4,8 @@ public class TextInput {
     
     private String content;
     
-    public TextInput(String iContent) {
-        content = iContent;
+    public TextInput(String content) {
+        this.content = content;
     }
     
     public Memento saveMemento() {
@@ -20,16 +20,16 @@ public class TextInput {
         return content;
     }
     
-    public void setContent(String iContent) {
-        content = iContent;
+    public void setContent(String content) {
+        this.content = content;
     }
     
     public static class Memento {
         
         private final String content;
         
-        private Memento(String iContent) {
-            content = iContent;
+        private Memento(String content) {
+            this.content = content;
         }
         
         private String getContent() {

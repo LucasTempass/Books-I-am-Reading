@@ -4,16 +4,18 @@ public class Phone {
     
     private MicroSIM microSIM;
     
-    public Phone(MicroSIM iMicroSIM) {
-        this.microSIM = iMicroSIM;
+    public Phone(MicroSIM microSIM) {
+        this.microSIM = microSIM;
     }
     
-    public void changeSIM(MicroSIM iSIM) {
-        this.microSIM = iSIM;
+    public void changeSIM(MicroSIM sim) {
+        this.microSIM = sim;
     }
     
     public void call() {
         this.microSIM.getData();
         System.out.println("Calling...");
+        
     }
+    
 }

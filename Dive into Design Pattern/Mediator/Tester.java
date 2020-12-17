@@ -1,20 +1,22 @@
 package Mediator;
 
+import java.util.Random;
+
 public class Tester {
     
-    private Mediator medium;
+    private Mediator mediator;
     
-    public Tester(Mediator iMedium) {
-        medium = iMedium;
+    public Tester(Mediator mediator) {
+        this.mediator = mediator;
     }
     
-    public void makeSuggestion(String iSuggestion) {
-        medium.notify(iSuggestion);
+    public void makeSuggestion(String suggestion) {
+        mediator.notify(suggestion);
     }
     
     public void test(String iTrial) {
         System.out.println("Performing: " + iTrial);
-        makeSuggestion(((int) (Math.random() * 100)) % 2 == 0  ? "Nothing to add" : "Maybe a free version would be great");
+        makeSuggestion(new Random().nextInt(100) % 2 == 0 ? "Nothing to add" : "Maybe a free version would be great");
         
     }
     

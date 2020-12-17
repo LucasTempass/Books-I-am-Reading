@@ -4,12 +4,8 @@ public abstract class TextValidator {
     
     private TextValidator nextComponent;
     
-    protected TextValidator(TextValidator iNext) {
-        nextComponent = iNext;
-    }
-    
-    public void setNext(TextValidator iNext) {
-        nextComponent = iNext;
+    protected TextValidator(TextValidator next) {
+        nextComponent = next;
     }
     
     private void next(String iValidatable) {
@@ -19,10 +15,11 @@ public abstract class TextValidator {
         
     }
     
-    protected abstract boolean isValid(String iValidatable);
+    protected abstract boolean isValid(String toValidate);
     
-    public void validate(String iValidatable) {
-        if (isValid(iValidatable)) next(iValidatable);
+    public void validate(String toValidate) {
+        if (isValid(toValidate))
+            next(toValidate);
         else System.out.println("Validation failed");
         
     }

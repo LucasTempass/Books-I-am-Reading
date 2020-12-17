@@ -6,6 +6,6 @@ public interface TextCommand {
     
     String getContent();
     
-    void setContent(String iContent);
+    void setContent(String content);
     
 }

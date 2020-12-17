@@ -3,21 +3,21 @@ package Visitor;
 public class JSONExporter implements Exporter {
     
     @Override
-    public void export(Token iToken) {
+    public void export(Token token) {
         System.out.println("Token {" +
-                "d uration: " + iToken.getDuration() +
-                ", isAdmin: " + iToken.isAdmin() +
-                ", userId: " + iToken.getUserId() +
+                "d uration: " + token.getDuration() +
+                ", isAdmin: " + token.isAdmin() +
+                ", userId: " + token.getUserId() +
                 " }");
-        
+    
     }
     
     @Override
-    public void export(LoginCredentials iCredentials) {
+    public void export(LoginCredentials credentials) {
         System.out.println("LoginCredentials {" +
-                " email: " + iCredentials.getEmail() +
-                ", password: " + iCredentials.getPassword() +
-                ", userId: " + iCredentials.getUserId() + " }"
+                " email: " + credentials.getEmail() +
+                ", password: " + credentials.getPassword() +
+                ", userId: " + credentials.getUserId() + " }"
         );
         
     }

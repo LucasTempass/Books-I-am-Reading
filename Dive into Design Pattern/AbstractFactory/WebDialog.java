@@ -12,14 +12,14 @@ public class WebDialog implements Dialog {
                 .println("\n/*|||||||| WEB UI DIALOG ||||||||||\n|||                             |||\n|||                             |||\n|||               " +
                         "              |||\n|||                             |||\n|||||||||||||||||||||||||||||||||*/");
         this.isShowing = true;
+    
     }
     
     public void close() {
-        if (this.isShowing) {
+        if (this.isShowing)
             System.out.println("Closing dialog");
-        }
-        
         this.isShowing = false;
+    
     }
     
 }

@@ -23,8 +23,8 @@ public class Dataset <T> {
         return content;
     }
     
-    public void setContent(ArrayList<T> iContent) {
-        content = iContent;
+    public void setContent(ArrayList<T> content) {
+        this.content = content;
         notifyEvery();
         
     }

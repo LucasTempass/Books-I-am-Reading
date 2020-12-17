@@ -1,15 +1,15 @@
 package ChainOfResponsability;
 
-public class PasswordValidator extends  TextValidator   {
+public class PasswordValidator extends TextValidator {
     
-    public PasswordValidator(TextValidator iNext) {
-        super(iNext);
+    public PasswordValidator(TextValidator next) {
+        super(next);
     }
     
     @Override
-    protected boolean isValid(String text) {
-        System.out.println(!text.isEmpty() ? "Password validated" : "Password is not valid");
-        return !text.isEmpty();
+    protected boolean isValid(String toValidate) {
+        System.out.println(!toValidate.isEmpty() ? "Password validated" : "Password is not valid");
+        return !toValidate.isEmpty();
         
     }
     

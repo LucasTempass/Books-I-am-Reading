@@ -3,15 +3,15 @@ package Memento;
 public class Demo {
     
     public static void main(String[] args) {
-        TextInput iTextInput = new TextInput("Lorem");
-        InputHistory iInputHistory = new InputHistory();
-        iInputHistory.addMemento(iTextInput.saveMemento());
-        System.out.println(iTextInput.getContent());
-        iTextInput.setContent("Ipsum");
-        System.out.println(iTextInput.getContent());
-        iInputHistory.undo(iTextInput);
-        System.out.println(iTextInput.getContent());
-
+        TextInput txtInput = new TextInput("Lorem");
+        InputHistory inputHistory = new InputHistory();
+        inputHistory.addMemento(txtInput.saveMemento());
+        System.out.println(txtInput.getContent());
+        txtInput.setContent("Ipsum");
+        System.out.println(txtInput.getContent());
+        inputHistory.undo(txtInput);
+        System.out.println(txtInput.getContent());
+    
     }
     
 }
