@@ -4,15 +4,15 @@ A collection for the books I've read, or I'm reading, and some of their related 
 
 ### 2020
 
-* Calculus made easy - A very simple introduction to differential and integral calculus by Silvanus P. Thompson, Martin
-  Gardner (2020...).
-* Calculus for Dummies, 2nd Edition by Mark Ryan (2020...).
-* [Dive Into Design Patterns by Alexander Shvets (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Dive%20into%20Design%20Pattern)
+* [Dive Into Design Patterns by Alexander Shvets (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Dive
+  into Design Pattern)
 * Beginning React with Hooks by Greg Lim (2020).
 * The Clean Code Collection by Robert Cecil Martin (2020).
 * Mastering Concurrent Programming with Java 9 (2020).
-* [Pattern-oriented software architecture by F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad and M. Stal (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Pattern-oriented%20Software%20Architecture)
-* [Java: High Performance with Java 9 by Mayur Ramgir and Nick Samoylov (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Mastering%20Concurrent%20Programming%20With%20Java%209)
+* [Pattern-oriented software architecture by F. Buschmann, R. Meunier, H. Rohnert, P. Sommerlad and M. Stal (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Pattern-oriented
+  Software Architecture)
+* [Java: High Performance with Java 9 by Mayur Ramgir and Nick Samoylov (2020).](https://github.com/LucasTempass/Books-I-am-Reading/tree/master/Mastering
+  Concurrent Programming With Java 9)
 * Modern Java Recipes - Simple Solution to Difficult Problems in Java 8 and 9 by Ken Kounsen (2020).
 * Java Coding Problems by Anghel Leonard (2020).
 * Java Projects by Peter Verhas (2020).
@@ -22,3 +22,16 @@ A collection for the books I've read, or I'm reading, and some of their related 
 * Mastering Software Testing with JUnit 5 by Boni Garcia (2020).
 * Java 11 Cookbook by Nick S. and Mohamed S. (2020).
 * Java Unit Testing with JUnit 5 Test Driven Development by Shekhar G., Rahul S. (2020).
+* Mastering Unit Testing Using Mockito and JUnit by Sujoy Acharya (2020).
+* Design Patterns and Best Practices in Java by Kamalmeet S., Adrian I. and Lucian-Paul Torje (2020).
+* Clean Architecture by Robert C. Martin (2020/21).
+
+### 2021
+
+* Domain-Driven Design by Eric Evans (2021).
+* Beginning Spring Boot 2.0 Applications and Microservices by K. Siva Prasad Reddy (2021).
+* Hands-on full stack development with Spring Boot 2 and React by Juha Hinkula (2021).
+* Learning Spring Boot 2.0 - Second Edition by Greg L. Turnquist(2021).
+* Spring 5 Design Patterns by Dinesh Rajput (2021).
+* Mastering Spring Boot 2.0 by Dinesh Rajput (2021).
+* Spring Boot 2.0 Projects Build production-grade reactive applications and microservices by Mohamed S. Sadakath (2021).
