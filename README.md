@@ -28,7 +28,9 @@ A collection of the books I've read, or I'm reading, and some of their related c
 * Domain-Driven Design by Eric Evans (2021).
 * Beginning Spring Boot 2.0 Applications and Microservices by K. Siva Prasad Reddy (2021).
 * Hands-on full stack development with Spring Boot 2 and React by Juha Hinkula (2021).
-* Learning Spring Boot 2.0 - Second Edition by Greg L. Turnquist(2021).
+* Learning Spring Boot 2.0 - Second Edition by Greg L. Turnquist (2021).
 * Spring 5 Design Patterns by Dinesh Rajput (2021).
 * Mastering Spring Boot 2.0 by Dinesh Rajput (2021).
-* Spring Boot 2.0 Projects Build production-grade reactive applications and microservices by Mohamed S. Sadakath (2021).
+* Spring Boot 2.0 Projects by Mohamed S. Sadakath (2021).
+* Mastering Spring Cloud by Piotr Mińkowski (2021).
+* Learn Microservices with Spring Boot by Moises Macero (2021).
