@@ -2,6 +2,8 @@
 
 A collection of the books I've read, or I'm reading, and some of their related code implementations.
 
+## Books
+
 ### 2020
 
 * Dive Into Design Patterns by Alexander Shvets (2020).
@@ -34,3 +36,9 @@ A collection of the books I've read, or I'm reading, and some of their related c
 * Spring Boot 2.0 Projects by Mohamed S. Sadakath (2021).
 * Mastering Spring Cloud by Piotr Mińkowski (2021).
 * Learn Microservices with Spring Boot by Moises Macero (2021).
+* xUnit Test Patterns by Gerard Meszaros (2021).
+* Software Engineering at Google curated by Hyrum Wright, Tom Manshreck, Titus Winters (2021).
+
+## Articles 
+ 
+* A Behavioral Notion of Subtyping - Barbarah Liskov and Jeannette M. Wing.
