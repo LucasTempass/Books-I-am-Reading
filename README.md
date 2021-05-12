@@ -2,9 +2,9 @@
 
 A collection of the books I've read, or I'm reading, and some of their related code implementations.
 
-## Books
+## 📚 Books
 
-### 2020
+### 📅 2020
 
 * Dive Into Design Patterns by Alexander Shvets (2020).
 * Beginning React with Hooks by Greg Lim (2020).
@@ -24,7 +24,7 @@ A collection of the books I've read, or I'm reading, and some of their related c
 * Mastering Unit Testing Using Mockito and JUnit by Sujoy Acharya (2020).
 * Design Patterns and Best Practices in Java by Kamalmeet S., Adrian I. and Lucian-Paul Torje (2020).
 
-### 2021
+### 📅 2021
 
 * Clean Architecture by Robert C. Martin (2020/21).
 * Domain-Driven Design by Eric Evans (2021).
@@ -39,6 +39,6 @@ A collection of the books I've read, or I'm reading, and some of their related c
 * xUnit Test Patterns by Gerard Meszaros (2021).
 * Software Engineering at Google curated by Hyrum Wright, Tom Manshreck, Titus Winters (2021).
 
-## Articles 
- 
+## 📰 Articles
+
 * A Behavioral Notion of Subtyping - Barbarah Liskov and Jeannette M. Wing.
