@@ -1,6 +1,6 @@
 # Books I am Reading / Read
 
-A collection of the books I've read, or I'm reading, and some of their related code implementations.
+#### A collection of the books I've read, or I'm reading, and some of their related code implementations.
 
 ## 📚 Books
 
