@@ -39,6 +39,6 @@ A collection of the books I've read, or I'm reading, and some of their related c
 * xUnit Test Patterns by Gerard Meszaros (2021).
 * Software Engineering at Google curated by Hyrum Wright, Tom Manshreck, Titus Winters (2021).
 
-## 📰 Articles
+## 📰 Papers
 
 * A Behavioral Notion of Subtyping - Barbarah Liskov and Jeannette M. Wing.
