@@ -38,6 +38,7 @@
 * Learn Microservices with Spring Boot by Moises Macero (2021).
 * xUnit Test Patterns by Gerard Meszaros (2021).
 * Software Engineering at Google curated by Hyrum Wright, Tom Manshreck, Titus Winters (2021).
+* Get Your Hands Dirty on Clean Architecture by Tom Homberg (2021).
 
 ## 📰 Papers
 
