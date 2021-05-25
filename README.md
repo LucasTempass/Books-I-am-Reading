@@ -39,6 +39,7 @@
 * xUnit Test Patterns by Gerard Meszaros (2021).
 * Software Engineering at Google curated by Hyrum Wright, Tom Manshreck, Titus Winters (2021).
 * Get Your Hands Dirty on Clean Architecture by Tom Homberg (2021).
+* PostgreSQL Up and Running by Regina Obe and Leo Hsu (2021).
 
 ## 📰 Papers
 
