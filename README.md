@@ -41,7 +41,9 @@
 * Get Your Hands Dirty on Clean Architecture by Tom Homberg (2021).
 * PostgreSQL Up and Running by Regina Obe and Leo Hsu (2021).
 * ATDD by Example by Markus Gärtner (2021).
-  
+* Git Version Control Cookbook by Kenneth Geisshirt, Aske Olsson, Rasmus Voss, Emanuele Zattin (2021).
+* Test Driven Development By Example by Kent Beck (2021).
+
 ## 📰 Papers
 
 * A Behavioral Notion of Subtyping - Barbarah Liskov and Jeannette M. Wing.
