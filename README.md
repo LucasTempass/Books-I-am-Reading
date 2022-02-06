@@ -45,6 +45,10 @@
 * Test Driven Development By Example by Kent Beck (2021).
 * Domain-Driven Design Distilled by Vaughn Vernon (2021).
 
+### 📅 2021
+
+* Designing React Hooks the Right Way by Jin Fang (2022).
+
 ## 📰 Papers
 
 * A Behavioral Notion of Subtyping - Barbarah Liskov and Jeannette M. Wing.
