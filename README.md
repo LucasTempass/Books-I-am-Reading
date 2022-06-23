@@ -45,9 +45,11 @@
 * Test Driven Development By Example by Kent Beck (2021).
 * Domain-Driven Design Distilled by Vaughn Vernon (2021).
 
-### 📅 2021
+### 📅 2022
 
 * Designing React Hooks the Right Way by Jin Fang (2022).
+* 97 Things Every Programmer Should Know by Kevlin Henne (2022).
+* Mastering TypeScript by Nathan Rozentals (2022).
 
 ## 📰 Papers
 
