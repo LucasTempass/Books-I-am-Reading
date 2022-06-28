@@ -50,6 +50,7 @@
 * Designing React Hooks the Right Way by Jin Fang (2022).
 * 97 Things Every Programmer Should Know by Kevlin Henne (2022).
 * Mastering TypeScript by Nathan Rozentals (2022).
+* Advanced TypeScript Projects by Peter O’Hanlon (2022).
 
 ## 📰 Papers
 
